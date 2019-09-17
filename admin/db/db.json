@@ -3,6 +3,6 @@
     { "id": 1, "": "name", "size": "23", "description": "typicode", "color": "yellow", "design": "nice attire" }
   ],
   "users": [
-    { "id": 1, "username": "first_user", "Password": "first_pass" }
+    { "id": 1, "username": "first_user", "Password": "first_pass", "Email": "lekhad19@gmail.com", }
   ]
 }
