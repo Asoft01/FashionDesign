@@ -63,48 +63,62 @@
 		</div>
 
 
-      <div class="tab-pane fade" id="new_design" role="tabpanel" aria-labelledby="new_design-tab"  style="background-color:#e6e6e6; color:black;">
-      	<div class="row" >
-      	 <form action="" method="post" enctype="multipart/form-data">
-		    <div class="form-group">
-		      <label for="title">Post Title</label>
-		      <input type="text" class="form-control" name="title">
-		    </div>
+      <div class="tab-pane fade" id="new_design" role="tabpanel" aria-labelledby="new_design-tab"  style="background-color:#e6e6e6; color:black; width: 800px;  align-items: center;" >
+      	<div class="row" style="padding-left: 300px;">
+      	 
+      	  <form action="" method="POST" enctype="multipart/form-data">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                              <input type="file" name="user_image">
+                             </div>
 
-		     <div class="form-group">
-		      <label for="post_author">Post Author</label>
-		      <input type="text" class="form-control" name="post_author">
-		    </div>
+                            <div class="form-group">
+                                 <label for="first name">Name</label>
+                                <input type="text" name="first_name" class="form-control">
+                            </div>
 
-		    
-		     <div class="form-group">
-		      <select name="post_status" id="">
-		        <option value="draft">Post Status</option>
-		        <option value="published">Published</option>
-		        <option value="draft">Draft</option>
+                             <div class="form-group">
+                                 <label for="last_size">Size</label>
+                                <input type="text" name="size" class="form-control">
+                            </div>
 
-		      </select>
-		    </div>
+                            <div class="form-group">
+                                 <label for="last_size">color</label>
+                                
+                                <select id="quantity">
+                                	<option value="">1</option>
+                                	<option value="">2</option>
+                                	<option value="">3</option>
+                                	<option value="">4</option>
+                                	<option value="">5</option>
+                                	<option value="">6</option>
+                                	<option value="">7</option>
+                                	<option value="">8</option>
+                                	<option value="10">9</option>
+                                	<option value="10">10</option>
 
-		    <div class="form-group">
-		      <label for="post_image">Post Image</label>
-		      <input type="file" name="post_image">
-		    </div>
+                                </select>
+                            </div>
 
-		    <div class="form-group">
-		      <label for="post_tags">Post Tags</label>
-		      <input type="text" class="form-control" name="post_tags">
-		    </div>
+                             <div class="form-group">
+                                 <label for="last_size">Price</label>
+                                <input type="text" name="size" class="form-control">
+                            </div>
 
-		    <div class="form-group">
-		      <label for="post_content">Post Content</label>
-		      <textarea class="form-control" name="post_content" id="body" cols="30" rows="10"></textarea> 
-		    </div>
+                            <div class="form-group">
+                                 <label for="last_size">Quantity</label>
+                                <input type="text" name="size" class="form-control">
+                            </div>
+                           
+                            <div class="form-group">
+                               
+                               <input type="submit" name="create" class="btn btn-primary pull-right">
+                           </div>
 
-		    <div class="form-group">
-		      <input class="btn btn-primary" type="submit" name="create_post" value="Publish Post">
-		    </div>
-		  </form>
+                        </div>
+                        </form>
+                        <!---End of the form----->
+
 		</div>
 
       </div>
