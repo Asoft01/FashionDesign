@@ -61,8 +61,87 @@
 			  </tbody>
 			</table>
 		</div>
-      <div class="tab-pane fade" id="new_design" role="tabpanel" aria-labelledby="new_design-tab">...</div>
-      <div class="tab-pane fade" id="user" role="tabpanel" aria-labelledby="user-tab">...</div>
+
+
+      <div class="tab-pane fade" id="new_design" role="tabpanel" aria-labelledby="new_design-tab"  style="background-color:#e6e6e6; color:black;">
+      	<div class="row" >
+      	 <form action="" method="post" enctype="multipart/form-data">
+		    <div class="form-group">
+		      <label for="title">Post Title</label>
+		      <input type="text" class="form-control" name="title">
+		    </div>
+
+		     <div class="form-group">
+		      <label for="post_author">Post Author</label>
+		      <input type="text" class="form-control" name="post_author">
+		    </div>
+
+		    
+		     <div class="form-group">
+		      <select name="post_status" id="">
+		        <option value="draft">Post Status</option>
+		        <option value="published">Published</option>
+		        <option value="draft">Draft</option>
+
+		      </select>
+		    </div>
+
+		    <div class="form-group">
+		      <label for="post_image">Post Image</label>
+		      <input type="file" name="post_image">
+		    </div>
+
+		    <div class="form-group">
+		      <label for="post_tags">Post Tags</label>
+		      <input type="text" class="form-control" name="post_tags">
+		    </div>
+
+		    <div class="form-group">
+		      <label for="post_content">Post Content</label>
+		      <textarea class="form-control" name="post_content" id="body" cols="30" rows="10"></textarea> 
+		    </div>
+
+		    <div class="form-group">
+		      <input class="btn btn-primary" type="submit" name="create_post" value="Publish Post">
+		    </div>
+		  </form>
+		</div>
+
+      </div>
+      <div class="tab-pane fade" id="user" role="tabpanel" aria-labelledby="user-tab" style="background-color:#e6e6e6; color:black;">
+      	  <table class="table table-hover">
+			  <thead>
+			    <tr>
+			      <th scope="col">Id</th>
+			      <th scope="col">Cloth Name</th>
+			      <th scope="col">Size</th>
+			      <th scope="col">Image</th>
+			      <th scope="col">Description</th>
+			      <th scope="col">Color</th>
+
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+			      <th scope="row">1</th>
+			      <td>Mark</td>
+			      <td>Otto</td>
+			      <td>@mdo</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">2</th>
+			      <td>Jacob</td>
+			      <td>Thornton</td>
+			      <td>@fat</td>
+			    </tr>
+			    <tr>
+			      <th scope="row">3</th>
+			      <td colspan="2">Larry the Bird</td>
+			      <td>@twitter</td>
+			    </tr>
+			  </tbody>
+			</table>
+      </div>
     </div>
    </div>
     <!-- Optional JavaScript -->
