@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Admin</title>
+  </head>
+  <body>
+   <div class="container">
+   <h1>Welcome to Admin Panel</h1>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="new_design-tab" data-toggle="tab" href="#new_design" role="tab" aria-controls="new_design" aria-selected="true">Add New Design</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="view_all_design-tab" data-toggle="tab" href="#view_all_design" role="tab" aria-controls="view_all_design" aria-selected="false">View All Design</a>
+      </li>
+      
+    </ul>
+
+    <div class="tab-content" id="myTabContent" style="width: 1000px;">
+      <div class="tab-pane fade show active" id="view_all_design" role="tabpanel" aria-labelledby="view_all_design-tab" style="background-color:#e6e6e6; color:black;">
+      <table class="table table-hover table-striped" id="myList">
+			  <!-- <thead>
+			    <tr>
+			      <th scope="col">Id</th>
+			      <th scope="col">Cloth Name</th>
+			      <th scope="col">Size</th>
+			      <th scope="col">Image</th>
+			      <th scope="col">Description</th>
+			      <th scope="col">Color</th>
+
+			    </tr>
+			  </thead> -->
+			  
+			</table>
+		</div>
+
+
+      <div class="tab-pane fade" id="new_design" role="tabpanel" aria-labelledby="new_design-tab"  style="background-color:#e6e6e6; color:black; width: 500px;  align-items: center;" >
+      	<div class="row" style="padding-left: 120px;">
+      	 
+      	  <form action="" method="POST" enctype="multipart/form-data">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                                 <label for="first name">Name</label>
+                                <input type="text" name="cloth_name" class="form-control" id="cloth_name">
+                            </div>
+
+                             <div class="form-group">
+                                 <label for="last_size">Size</label>
+                                <input type="text" name="size" class="form-control" id="size">
+                            </div>
+
+                            <div class="form-group">
+                                 <label for="quantity">Quantity</label>
+                                
+                                <select id="quantity">
+                                	<option value="1">1</option>
+                                	<option value="2">2</option>
+                                	<option value="3">3</option>
+                                	<option value="4">4</option>
+                                	<option value="5">5</option>
+                                	<option value="6">6</option>
+                                	<option value="7">7</option>
+                                	<option value="8">8</option>
+                                	<option value="9">9</option>
+                                	<option value="10">10</option>
+
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                 <label for="color">Color</label>
+                                
+                                <select id="color">
+                                	<option value="yellow">Yellow</option>
+                                	<option value="blue">Blue</option>
+                                	<option value="green">Green</option>
+                                	<option value="blue">Blue</option>
+                                	<option value="purple">Purple</option>
+                          		</select>
+                            </div>
+
+                            <div class="form-group">
+
+                              <label for="last_size">Image Path</label>
+                              <input type="text" name="user_image" id="image_path">
+                             </div>
+
+                             <div class="form-group">
+                                 <label for="last_size">Price</label>
+                                <input type="text" name="size" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                 <label for="last_size">Description</label>
+                               <textarea name="desc" id="description"></textarea>
+                            </div>
+                           
+                            <div class="form-group">
+                               
+                               <input type="submit" name="create" class="btn btn-primary pull-right" id="submit">
+                           </div>
+
+                        </div>
+                        </form>
+                        <!---End of the form----->
+
+		</div>
+
+      </div>
+      
+    </div>
+   </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="./jquery.js"></script>
+    <script src="./app.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

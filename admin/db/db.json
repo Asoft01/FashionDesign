@@ -1,8 +1,25 @@
 {
   "fashion_info": [
-    { "id": 1, "": "name", "size": "23", "description": "typicode", "color": "yellow", "design": "nice attire" }
+    {
+      "id": 1,
+      "name": "",
+      "size": "23"
+    }
   ],
   "users": [
-    { "id": 1, "username": "first_user", "Password": "first_pass" }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ]
 }
+
+// {
+//   "fashion_info": [
+//     { "id": 1, "": "name", "size": "23", "description": "typicode", "color": "yellow", "design": "nice attire" }
+//   ],
+//   "users": [
+//     { "id": 1, "username": "first_user", "Password": "first_pass", "Email": "lekhad19@gmail.com", }
+//   ]
+// }
