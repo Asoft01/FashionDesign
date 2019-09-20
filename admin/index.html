@@ -21,15 +21,13 @@
       <li class="nav-item">
         <a class="nav-link" id="view_all_design-tab" data-toggle="tab" href="#view_all_design" role="tab" aria-controls="view_all_design" aria-selected="false">View All Design</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" id="user-tab" data-toggle="tab" href="#user" role="tab" aria-controls="user" aria-selected="false">View All Users</a>
-      </li>
+      
     </ul>
 
-    <div class="tab-content" id="myTabContent">
+    <div class="tab-content" id="myTabContent" style="width: 1000px;">
       <div class="tab-pane fade show active" id="view_all_design" role="tabpanel" aria-labelledby="view_all_design-tab" style="background-color:#e6e6e6; color:black;">
-      <table class="table table-hover">
-			  <thead>
+      <table class="table table-hover table-striped" id="myList">
+			  <!-- <thead>
 			    <tr>
 			      <th scope="col">Id</th>
 			      <th scope="col">Cloth Name</th>
@@ -39,26 +37,8 @@
 			      <th scope="col">Color</th>
 
 			    </tr>
-			  </thead>
-			  <tbody>
-			    <tr>
-			      <th scope="row">1</th>
-			      <td>Mark</td>
-			      <td>Otto</td>
-			      <td>@mdo</td>
-			    </tr>
-			    <tr>
-			      <th scope="row">2</th>
-			      <td>Jacob</td>
-			      <td>Thornton</td>
-			      <td>@fat</td>
-			    </tr>
-			    <tr>
-			      <th scope="row">3</th>
-			      <td colspan="2">Larry the Bird</td>
-			      <td>@twitter</td>
-			    </tr>
-			  </tbody>
+			  </thead> -->
+			  
 			</table>
 		</div>
 
@@ -82,34 +62,38 @@
                                  <label for="quantity">Quantity</label>
                                 
                                 <select id="quantity">
-                                	<option value="">1</option>
-                                	<option value="">2</option>
-                                	<option value="">3</option>
-                                	<option value="">4</option>
-                                	<option value="">5</option>
-                                	<option value="">6</option>
-                                	<option value="">7</option>
-                                	<option value="">8</option>
-                                	<option value="10">9</option>
+                                	<option value="1">1</option>
+                                	<option value="2">2</option>
+                                	<option value="3">3</option>
+                                	<option value="4">4</option>
+                                	<option value="5">5</option>
+                                	<option value="6">6</option>
+                                	<option value="7">7</option>
+                                	<option value="8">8</option>
+                                	<option value="9">9</option>
                                 	<option value="10">10</option>
 
                                 </select>
                             </div>
 
                             <div class="form-group">
-                                 <label for="last_size">Color</label>
+                                 <label for="color">Color</label>
                                 
-                                <select id="quantity">
-                                	<option value="">Yellow</option>
-                                	<option value="">Blue</option>
-                                	<option value="">Green</option>
-                                	<option value="">Blue</option>
-                                	<option value="">Purple</option>
+                                <select id="color">
+                                	<option value="yellow">Yellow</option>
+                                	<option value="blue">Blue</option>
+                                	<option value="green">Green</option>
+                                	<option value="blue">Blue</option>
+                                	<option value="purple">Purple</option>
                           		</select>
                             </div>
+
                             <div class="form-group">
-                              <input type="file" name="user_image">
+
+                              <label for="last_size">Image Path</label>
+                              <input type="text" name="user_image" id="image_path">
                              </div>
+
                              <div class="form-group">
                                  <label for="last_size">Price</label>
                                 <input type="text" name="size" class="form-control">
@@ -117,7 +101,7 @@
 
                             <div class="form-group">
                                  <label for="last_size">Description</label>
-                               <textarea name="desc" id="desc"></textarea>
+                               <textarea name="desc" id="description"></textarea>
                             </div>
                            
                             <div class="form-group">
@@ -132,33 +116,7 @@
 		</div>
 
       </div>
-      <div class="tab-pane fade" id="user" role="tabpanel" aria-labelledby="user-tab" style="background-color:#e6e6e6; color:black;">
-      	  <table class="table table-hover">
-			  <thead>
-			    <tr>
-			      <th scope="col">Id</th>
-			      <th scope="col">Username</th>
-			      <th scope="col">Email</th>
-			      
-			    </tr>
-			  </thead>
-			  <tbody>
-			    <tr>
-			      <th scope="row">1</th>
-			      <td>Mark</td>
-			      <td>Otto</td>
-			    
-			    </tr>
-			    <tr>
-			      <th scope="row">2</th>
-			      <td>Jacob</td>
-			      <td>Thornton</td>
-			    
-			    </tr>
-			    
-			  </tbody>
-			</table>
-      </div>
+      
     </div>
    </div>
     <!-- Optional JavaScript -->
@@ -171,5 +129,6 @@
 
     <script src="./jquery.js"></script>
     <script src="./app.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,75 @@
+{
+  "fashion_info": [
+    {
+      "cloth_name": "Ankaara",
+      "size": "23",
+      "quantity": "3",
+      "color": "yellow",
+      "description": "Best",
+      "img_path": "https://www.bigstockphoto.com/image-312290644/stock-photo-following-sister-in-everything-cool-cutie-fashionable-outfit-happy-childhood-kids-fashion-concept",
+      "id": 15
+    },
+    {
+      "cloth_name": "Gucci",
+      "size": "23",
+      "quantity": "1",
+      "color": "yellow",
+      "description": "This is the best",
+      "img_path": "db/image",
+      "id": 16
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "user_email": "Email",
+      "user_password": "Password",
+      "postId": 1
+    },
+    {
+      "email": "ewnknjk",
+      "password": "kjewnqkj",
+      "id": 4
+    },
+    {
+      "email": "eklk",
+      "password": "kwnqfdkj",
+      "id": 5
+    },
+    {
+      "email": "lekejk",
+      "password": "jkefnk",
+      "id": 6
+    },
+    {
+      "email": "leka",
+      "password": "le",
+      "id": 7
+    },
+    {
+      "email": "lek",
+      "password": "lek",
+      "id": 8
+    },
+    {
+      "email": "lekjanj",
+      "password": "lek",
+      "id": 9
+    },
+    {
+      "email": "lek",
+      "password": "lek",
+      "id": 10
+    },
+    {
+      "email": "lfdmlk",
+      "password": "kefnjk",
+      "id": 11
+    },
+    {
+      "email": "lekan",
+      "password": "lekan",
+      "id": 12
+    }
+  ]
+}
